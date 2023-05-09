@@ -33,7 +33,7 @@ function ToggleModal() {
 function ToggleSingleTaskModal() {
 
   const modal = document.getElementById("single-task-modal");
-  modal.style.backgroundColor="cyan";
+  modal.style.backgroundColor="black";
   // console.log(modal.style.display);
   const singleTaskContainer=document.getElementById("singleTaskCard");
   singleTaskContainer.innerHTML="";
