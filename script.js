@@ -179,7 +179,7 @@ function renderItems() {
 
 
     addBtn.style.height="40px";
-    addBtn.src = "./add_box_FILL1_wght400_GRAD0_opsz48.svg";
+    addBtn.src = "./assets/plus-solid.svg"; // plus icon
     addBtn.classList.add("plus-icon");
     addBtn.addEventListener("click", () => {
       ToggleItemModal();
@@ -194,7 +194,7 @@ function renderItems() {
     // delBtn.style.position="absolute";
     // delBtn.style.top="67%";
     // delBtn.style.left="56%";
-    delBtn.src = "./delete_FILL1_wght400_GRAD0_opsz48.svg";
+    delBtn.src = "./assets/trash-solid.svg"; // delete icon
     delBtn.classList.add("bin-icon");
 
     delBtn.addEventListener("click", () => {
